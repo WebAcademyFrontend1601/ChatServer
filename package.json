@@ -1,0 +1,29 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "Simple WebSocket server for ChatClient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebAcademyFrontend1601/ChatServer.git"
+  },
+  "author": "onomatopio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebAcademyFrontend1601/ChatServer/issues"
+  },
+  "homepage": "https://github.com/WebAcademyFrontend1601/ChatServer#readme",
+  
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  },
+
+  "dependencies": {
+    "ws": "^1.0.1"
+  }
+
+}
